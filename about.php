@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About - The Amazing Cup</title>
+    <title>The Perfect Cup - About us</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,8 +32,8 @@
 
 <body>
 
-    <div class="brand">The Amazing Cup</div>
-    <div class="address-bar">Park Market | Dhanbad | 826001</div>
+    <div class="brand">The Perfect Cup</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>
@@ -45,17 +45,17 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">About
-                        <strong>The Amazing Cup</strong>
+                        <strong>The Perfect Cup</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ooUAVHJAcyk' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <div class="col-md-6">
-                    <p>This is a great place to introduce your company or project and describe what you do.</p>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>The Perfect Cup launched in 2000, in the heart of California. Our mission is simple. We want to teach coffee drinkers all over the world how to make the perfect blend!
+
+Our Coffee experts have a lifelong passion for coffee. They are internationally traveled and have experienced many varieties.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -71,22 +71,16 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
+                    <img class="img-responsive" src="img/abt1.jpg" alt="">
+                    <h3>James Moore</h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
+                    <img class="img-responsive" src="img/abt2.jpg" alt="">
+                    <h3>Jane Brown</h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
-                    </h3>
+                    <img class="img-responsive" src="img/abt3.jpg" alt="">
+                    <h3>Anne Marie</h3>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -99,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; The Amazing Cup 2020</p>
+                    <p>Copyright &copy; The Perfect Cup 2016</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Amazing Cup</title>
+    <title>The Perfect Cup - Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,9 +32,26 @@
 
 <body>
 
-    <div class="brand">The Amazing Cup</div>
-    <div class="address-bar">Park Market | Dhanbad | 826001</div>
+    <div class="brand">The Perfect Cup</div>
+    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
+	<?php
+		
+	if (isset($_GET["logout"])) {
+		
+		if ($_GET["logout"] == "true") { ?>
+			
+			<div class="alert alert-success">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>You have been logged out of the system.</strong>
+			</div>   
+
+	<?php
+		}
+	}
+	?>
+
+	
     <!-- Navigation -->
     <?php require_once 'nav.php'; ?>
 
@@ -75,11 +92,11 @@
                     <h2 class="brand-before">
                         <small>Welcome to</small>
                     </h2>
-                    <h1 class="brand-name">Business Casual</h1>
+                    <h1 class="brand-name">The Perfect Cup</h1>
                     <hr class="tagline-divider">
                     <h2>
                         <small>By
-                            <strong>Agni Bhattacharyya</strong>
+                            <strong>John Smith</strong>
                         </small>
                     </h2>
                 </div>
@@ -90,15 +107,13 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Build a website
-                        <strong>worth visiting</strong>
+                    <h2 class="intro-text text-center">HOW TO MAKE 
+                        <strong>THE PERFECT CUP OF COFFEE</strong>
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
                     <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>Making the perfect cup of coffee can be challenging! With so many unique flavours and recipes to choose from, where do you begin? Our website provides you with the best recipes from around the world. Whether you prefer your coffee hot and mild or bracingly cold and strong - we are sure to have what you are looking for. For access to unlimited recipes you must register! Registration is free. Click here to get started!</p>
                 </div>
             </div>
         </div>
@@ -110,7 +125,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Agni 2020</p>
+                    <p>Copyright &copy; The Perfect Cup 2016</p>
                 </div>
             </div>
         </div>
